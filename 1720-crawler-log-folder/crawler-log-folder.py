@@ -5,8 +5,7 @@ class Solution:
             if i=="../":
                 if count>0:
                     count-=1
-                else:
-                    count=0
+                
             elif i=="./":
                 count+=0
             else:
