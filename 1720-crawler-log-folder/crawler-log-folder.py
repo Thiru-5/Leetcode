@@ -5,10 +5,7 @@ class Solution:
             if i=="../":
                 if count>0:
                     count-=1
-                
-            elif i=="./":
-                count+=0
-            else:
+            elif i!="./":
                 count+=1
         return count
         
