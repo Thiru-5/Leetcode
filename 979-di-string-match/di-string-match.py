@@ -10,8 +10,5 @@ class Solution:
             else:
                 c.append(b)
                 b-=1
-        if s[-1]=="I":
-            c.append(a)
-        elif s[-1]=="D":
-            c.append(b)
+        c.append(a)
         return c
