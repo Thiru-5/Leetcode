@@ -5,4 +5,5 @@ class Solution:
             for j in words:
                 if i in j and i!=j:
                     a.add(i)
+                    break
         return list(a)
