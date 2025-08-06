@@ -1,6 +1,5 @@
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
-        a = []
         c = set()
         d = set()
 
