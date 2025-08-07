@@ -9,9 +9,7 @@ class Solution:
         while head:
             c.append(head)
             head=head.next
-            
         c.remove(c[-(n)])
-
         a=ListNode()
         b=a
         for i in c:
@@ -19,3 +17,4 @@ class Solution:
             b=b.next
         b.next=None
         return a.next
+        
