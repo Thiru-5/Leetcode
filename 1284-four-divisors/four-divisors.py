@@ -7,9 +7,8 @@ class Solution:
                 if i % j == 0:
                     b.add(j)
                     b.add(i // j)
-                if len(b) > 4:   
-                    
-                    break
+                
+                
             if len(b) == 4:
                 a += sum(b)
         return a
