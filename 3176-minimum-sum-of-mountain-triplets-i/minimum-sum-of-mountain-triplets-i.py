@@ -1,6 +1,6 @@
 class Solution:
     def minimumSum(self, nums: List[int]) -> int:
-        b=100000
+        b=float("inf")
         for i in range(len(nums)):
             for j in range(i+1,len(nums)):
                 for k in range(j+1,len(nums)):
@@ -8,6 +8,6 @@ class Solution:
                         a=nums[i]+nums[j]+nums[k]
                         if a<b:
                             b=a
-        if b==100000:
+        if b==float("inf"):
             return -1
         return b
