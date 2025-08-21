@@ -1,6 +1,7 @@
 class Solution:
     def zeroFilledSubarray(self, nums: List[int]) -> int:
-        a=b=0
+        a=0
+        b=0
         for i in nums:
             if i==0:
                 a+=1
